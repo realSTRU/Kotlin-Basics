@@ -20,5 +20,19 @@ class MainActivity : AppCompatActivity() {
 
         println("Hola No."+myFirstVariable+":"+myFirstStringVariable)
 
+        //Intercambio de variables
+
+        myFirstStringVariable = myFirstVariable
+
+        println(myFirstStringVariable + " He cambiado a un numero")
+
+        //constantes
+
+        val elRamirez = "Esta constante es igual a el ramirez"
+
+        println(elRamirez)
+
+
+
     }
 }
