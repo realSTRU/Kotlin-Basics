@@ -20,6 +20,15 @@ class MainActivity : AppCompatActivity() {
 
         println(myString1 + " " + myString2 + " "+ "y" + " " + myString3)
 
+        //ints (Byte, Short, Int, Long)
+
+        val byInt : Int = 1
+        val byInt2 = 9
+
+        val byInt3 : Int = byInt + byInt2
+
+        println("El numero resultante de la suma de " + byInt +" mas "+ byInt2 +" es: "+  byInt3)
+
     }
 }
 
