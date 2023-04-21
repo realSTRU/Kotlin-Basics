@@ -39,6 +39,13 @@ class MainActivity : AppCompatActivity() {
 
         println("El resultado de sumar los numero decimales en kotlin de los numeros ("+byDouble+" "+byDouble1+" "+byDouble2+") es: "+byDouble3)
 
+        // Boolean (Boolean)
+
+        val byBoolean : Boolean = true
+        val byBoolean1 : Boolean = false
+
+        println(byBoolean != byBoolean1)
+        
 
     }
 }
