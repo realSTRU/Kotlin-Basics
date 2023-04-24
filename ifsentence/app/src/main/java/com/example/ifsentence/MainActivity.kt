@@ -13,6 +13,8 @@ class MainActivity : AppCompatActivity() {
         //leccion 2 about if sentence
         ifSentencePart2()
 
+
+
     }
 
     private fun ifSentences()
@@ -34,6 +36,16 @@ class MainActivity : AppCompatActivity() {
     }
     private fun ifSentencePart2()
     {
+        var byInt : Int = 22
 
+        if(byInt == 1 && byInt <10)
+        {
+            println("el numero $byInt es igual a uno y menor que 10")
+
+        }
+        else
+        {
+            println("el numero $byInt es diferente de 1 y talvez mayor que 10, xd :)" )
+        }
     }
 }
